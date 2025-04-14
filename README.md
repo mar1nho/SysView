@@ -5,7 +5,7 @@
   <h3 align="center">🌍 Escolha o idioma / Choose your language</h3>
   <img src="img_demo/install.png" width="60%" />
 </p>
-
+</div>
 
 
 
@@ -36,4 +36,4 @@ sysviewen  # English Version
   <img src="img_demo/pt.png" width="47%" />
   <img src="img_demo/en.png" width="47%" />
 </p>
-</div>
+
