@@ -1,8 +1,5 @@
 <div  align="center">
 <h1>📦 SysView - Instalação / Installation</h1>
-  
-> For Linux Only, check the commands below
-
 <p align="center">
   <h3 align="center">🌍 Escolha o idioma / Choose your language</h3>
   <img src="img_demo/install.png" width="60%" />
@@ -12,7 +9,9 @@
 
 
 
-<h3>🇧🇷 Instalação via Git  |  🇺🇸 Installation via Git</h3>
+<h3>🇧🇷 Instalação via Git  |  🇺🇸 Installation via Git <bold>(LINUX)</bold></h3>
+
+
 
 <p>Clone o repositório e execute o instalador  |  Clone the repository and run the installer:</p>
 
