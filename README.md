@@ -1,5 +1,7 @@
 <div  align="center">
 <h1>📦 SysView - Instalação / Installation</h1>
+  
+> For Linux Only, check the commands below
 
 <p align="center">
   <h3 align="center">🌍 Escolha o idioma / Choose your language</h3>
