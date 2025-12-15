@@ -105,6 +105,7 @@ sysviewen  # English Version
 <ul>
   <li>📖 <a href="CONTRIBUTING.md">Guia de Contribuição / Contributing Guide</a></li>
   <li>🧪 <a href="docs/TESTING.md">Guia de Testes / Testing Guide</a></li>
+  <li>🔄 <a href="docs/MIGRATION.md">Guia de Migração / Migration Guide</a></li>
   <li>📝 <a href="CHANGELOG.md">Histórico de Mudanças / Changelog</a></li>
 </ul>
 
