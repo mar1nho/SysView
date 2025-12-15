@@ -100,6 +100,14 @@ sysviewen  # English Version
   <li>O script é 100% offline, exceto quando faz testes ou instala dependências.<br><i>The script works offline except when testing internet or installing dependencies.</i></li>
 </ul>
 
+<h2 align="center">📚 Documentação / Documentation</h2>
+
+<ul>
+  <li>📖 <a href="CONTRIBUTING.md">Guia de Contribuição / Contributing Guide</a></li>
+  <li>🧪 <a href="docs/TESTING.md">Guia de Testes / Testing Guide</a></li>
+  <li>📝 <a href="CHANGELOG.md">Histórico de Mudanças / Changelog</a></li>
+</ul>
+
 
 <p align="center">
   <img src="img_demo/pt.png" width="47%" />
