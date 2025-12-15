@@ -1,16 +1,13 @@
 #!/bin/bash
 
-# ========== COLORS ==========
+# ========== CORES ==========
 RED='\e[31m'
 BOLD_RED='\e[1;31m'
 NC='\e[0m'
 
 log_prefix="${BOLD_RED}[ $(date +"%H:%M:%S") ] SysView:${NC} ${RED}"
 
-# Get the directory where this script is located
-SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
-# ========== LANGUAGE SELECTION ==========
+# ========== SELEÇÃO DE IDIOMA ==========
 clear
 echo -e "${BOLD_RED}    ███████ ██    ██ ███████ ██    ██ ██ ███████ ██     ██ ${NC}"
 echo -e "${BOLD_RED}    ██       ██  ██  ██      ██    ██ ██ ██      ██     ██ ${NC}"
@@ -21,7 +18,7 @@ echo -e "${BOLD_RED}                  SysView Monitor v0.2${NC}"
 echo -e "${RED}============================================================${NC}"
 echo -e "${RED}   +--------------+ ${BOLD_RED}🌍 Escolha o idioma / Choose the language:${NC}"
 echo -e "${RED}   |.------------.|-------------------------------------------${NC}"
-echo -e "${RED}   ||            || 1. 🇬🇧 English (command: sysviewen)"
+echo -e "${RED}   ||            || 1. 🇬🇧 English (comando: sysviewen)"
 echo -e "${RED}   ||            || 2. 🇧🇷 Português (comando: sysviewpt)"
 echo -e "${RED}   ||            ||" 
 echo -e "${RED}   ||            ||"
@@ -35,7 +32,7 @@ echo -e "${RED}\____________________/"
 echo " "
 read -p "-> " lang_choice
 
-# ========== CONFIGURATION ==========
+# ========== CONFIGURAÇÃO ==========
 case "$lang_choice" in
     2)
         SCRIPT_NAME="sysview-pt.sh"
@@ -61,24 +58,22 @@ esac
 
 DEST_PATH="/usr/local/bin/$DEST_CMD"
 
-# ========== INSTALLATION ==========
+# Get the directory where this script is located
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# ========== INSTALAÇÃO ==========
 echo -e "${log_prefix}${INSTALLING}"
 sleep 1
 
-# Look for script in src directory first, then in current directory (backwards compatibility)
-if [ -f "$SCRIPT_DIR/src/$SCRIPT_NAME" ]; then
-    SCRIPT_PATH="$SCRIPT_DIR/src/$SCRIPT_NAME"
-elif [ -f "$SCRIPT_DIR/$SCRIPT_NAME" ]; then
-    SCRIPT_PATH="$SCRIPT_DIR/$SCRIPT_NAME"
-else
+if [ ! -f "$SCRIPT_DIR/$SCRIPT_NAME" ]; then
     echo -e "${log_prefix}${NOT_FOUND}"
     exit 1
 fi
 
-chmod +x "$SCRIPT_PATH"
+chmod +x "$SCRIPT_DIR/$SCRIPT_NAME"
 
 echo -e "${log_prefix}${COPYING}"
-sudo cp "$SCRIPT_PATH" "$DEST_PATH"
+sudo cp "$SCRIPT_DIR/$SCRIPT_NAME" "$DEST_PATH"
 
 if [ $? -eq 0 ]; then
     echo -e "${log_prefix}${SUCCESS}"

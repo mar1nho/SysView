@@ -32,6 +32,21 @@ sysviewen  # English Version
 </code>
 </pre>
 
+<h3>🐧 Distribuições Linux Suportadas / Supported Linux Distributions</h3>
+
+<p>O SysView agora suporta múltiplas distribuições Linux automaticamente  |  SysView now supports multiple Linux distributions automatically:</p>
+
+<ul>
+  <li>✅ Debian / Ubuntu (apt)</li>
+  <li>✅ Arch Linux (pacman)</li>
+  <li>✅ Fedora (dnf)</li>
+  <li>✅ CentOS / RHEL (yum)</li>
+  <li>✅ openSUSE (zypper)</li>
+</ul>
+
+<p>O instalador detecta automaticamente o gerenciador de pacotes da sua distribuição  |  The installer automatically detects your distribution's package manager</p>
+
+
 
 <h2 align="center">🧰 Tecnologias e Comandos Utilizados / Technologies and Commands Used</h2>
 
