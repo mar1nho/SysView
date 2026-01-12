@@ -1,5 +1,5 @@
 <div  align="center">
-<h1>📦 SysView - Instalação / Installation</h1>
+<h1>- SysView - Instalação / Installation</h1>
 <p align="center">
   <h3 align="center">🌍 Escolha o idioma / Choose your language</h3>
   <img src="img_demo/install.png" width="60%" />
@@ -9,7 +9,7 @@
 
 
 
-<h3>🇧🇷 Instalação via Git  |  🇺🇸 Installation via Git <bold>(LINUX)</bold></h3>
+<h3>Instalação via Git | Installation via Git <bold>(LINUX)</bold></h3>
 
 
 
@@ -32,7 +32,7 @@ sysviewen  # English Version
 </code>
 </pre>
 
-<h3>🐧 Distribuições Linux Suportadas / Supported Linux Distributions</h3>
+<h3> Distribuições Linux Suportadas / Supported Linux Distributions</h3>
 
 <p>O SysView agora suporta múltiplas distribuições Linux automaticamente  |  SysView now supports multiple Linux distributions automatically:</p>
 
@@ -48,9 +48,9 @@ sysviewen  # English Version
 
 
 
-<h2 align="center">🧰 Tecnologias e Comandos Utilizados / Technologies and Commands Used</h2>
+<h2 align="center">Tecnologias e Comandos Utilizados / Technologies and Commands Used</h2>
 
-<h3 align="center">🔧 Comandos nativos do Linux / Native Linux Commands</h3>
+<h3 align="center">Comandos nativos do Linux / Native Linux Commands</h3>
 <div  align="center">
 <table>
   <thead>
@@ -75,7 +75,7 @@ sysviewen  # English Version
   </tbody>
 </table>
 
-<h3>🌐 Dependências externas / External Dependencies</h3>
+<h3>Dependências externas / External Dependencies</h3>
 
 <table>
   <thead>
@@ -100,14 +100,7 @@ sysviewen  # English Version
   <li>O script é 100% offline, exceto quando faz testes ou instala dependências.<br><i>The script works offline except when testing internet or installing dependencies.</i></li>
 </ul>
 
-<h2 align="center">📚 Documentação / Documentation</h2>
-
-<ul>
-  <li>📖 <a href="CONTRIBUTING.md">Guia de Contribuição / Contributing Guide</a></li>
-  <li>🧪 <a href="docs/TESTING.md">Guia de Testes / Testing Guide</a></li>
-  <li>🔄 <a href="docs/MIGRATION.md">Guia de Migração / Migration Guide</a></li>
-  <li>📝 <a href="CHANGELOG.md">Histórico de Mudanças / Changelog</a></li>
-</ul>
+<h2 align="center">Documentação / Documentation</h2>
 
 
 <p align="center">
